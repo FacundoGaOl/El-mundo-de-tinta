@@ -1,0 +1,72 @@
+.body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgba(255, 255, 255, 0.02);
+}
+
+.mainSection {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.containerGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.card {
+    background-color: rgba(136, 206, 115, 0.02);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.card img {
+width: 100%;
+}
+
+.buy {
+background-color: paleturquoise;
+width: 100%;
+text-align: center;
+color: black;
+}
+
+@media (min-width: 400px) {
+
+.containerGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+}
+
+
+@media (min-width: 800px) {
+
+.containerGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+}
+
+@media (min-width: 1000px) {
+
+.containerGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+}
