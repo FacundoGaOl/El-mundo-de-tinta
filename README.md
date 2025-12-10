@@ -37,6 +37,8 @@ Contenido dinámico con JavaScript + JSON
 
 #🧩 Tecnologías Utilizadas
 
+<img width="550" height="307" alt="image" src="https://github.com/user-attachments/assets/ef098538-8833-4a52-9e6e-9fcda874492e" />
+
 HTML5
 
 CSS3
@@ -44,6 +46,8 @@ CSS3
 JavaScript
 
 JSON
+
+Bootstrap
 
 Git y GitHub
 
