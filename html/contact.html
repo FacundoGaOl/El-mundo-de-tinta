@@ -7,8 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Comik - Contacto</title>
     <link rel="stylesheet" href="../styles/contact.css">
+    <link rel="stylesheet" href="../styles/navbar.css">
 </head>
 <body>
+    <navbar-store></navbar-store>
     <main>
 
         
@@ -23,10 +25,11 @@
 
         <h2>Formulario de contacto</h2>
 
-        <form id="contactForm"
+        <form id="contactForm">
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email"
+            <div>
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email">
             </div>
 
             <div>
@@ -41,12 +44,9 @@
             </div>
         </form>
     </main>
+    <footer-store></footer-store>
 
-    <footer>
-        <p> 2025 Mundo De Tinta 🎨</p>
-    </footer>
-
-    <script src="script.js"></script>
+    <script src="../js/inject.js"></script>
 </body>
 </html>
 
