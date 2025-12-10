@@ -1,13 +1,18 @@
-.containerf {
+.footerColor {
     background-color: #77CEC6;
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
     width: 100%;
+}
+
+
+.footerContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 1200px;
     min-height: 300px;
     gap: 10px;
     padding: 20px;
     box-sizing: border-box;
+    margin: 0 auto;
 }
 
 img {

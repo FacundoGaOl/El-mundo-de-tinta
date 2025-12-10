@@ -4,7 +4,7 @@ function createComicsCard({name, price, cover}) {
     return `
         <div class="card">
             <img src="${cover}" alt="Portada del comic">
-            <h3>${name}</h3>
+            <h3 class="nameCard">${name}</h3>
             <h3>${price}€</h3>
             <button class="buy"> <h3>Comprar</h3></button>
         </div>

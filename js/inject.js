@@ -25,8 +25,8 @@ customElements.define("navbar-store", NavbarStore);
 class FooterStore extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
-    <footer>
-        <section class="containerf">
+    <footer class="footerColor">
+        <section class="footerContainer">
             <div><img src="../images/logoP.png" alt="Logo"></div>
             <div class="aboutUs">
                 <h2>Sobre Nosotros</h2>

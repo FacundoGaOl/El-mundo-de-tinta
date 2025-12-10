@@ -1,4 +1,4 @@
-html, body {
+body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -17,6 +17,7 @@ html, body {
     gap: 1rem;
     width: 100%;
     box-sizing: border-box;
+    padding: 0;
 }
 
 
@@ -24,6 +25,16 @@ html, body {
     background-color: rgba(136, 206, 115, 0.02);
     padding: 1rem;
     border-radius: 10px;
+    box-sizing: border-box; 
+    min-width: 0;
+}
+
+.nameCard {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    max-width: 100%;
 }
 
 .card img {

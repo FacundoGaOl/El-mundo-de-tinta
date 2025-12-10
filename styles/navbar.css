@@ -1,22 +1,24 @@
-/* Barra de navegacion */
 .navbar {
     background-color: #6a11cb;
     width: 100%;
     padding: 12px 0;
 }
 
-/* Contenedor del navbar */
 .navbar-container {
     margin: 0 20px;
     padding: 0 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;   /* permite que logo y links se junten al hacer la ventana pequeña */
+    flex-wrap: wrap;
     gap: 10px;
 }
 
-/* Logo a la izquierda */
+.navbar-container img {
+width: 100px;
+height: auto;
+}
+
 .navbar-brand {
     font-size: 22px;
     font-weight: bold;
@@ -24,7 +26,7 @@
     flex-shrink: 0;
 }
 
-/* Lista de enlaces a la derecha, repartidos */
+
 .navbar-list {
     list-style: none;
     display: flex;
@@ -34,7 +36,6 @@
     justify-content: flex-end;
 }
 
-/* Enlaces del menu */
 .navbar-link {
     text-decoration: none;
     color: white;
@@ -42,19 +43,16 @@
     font-weight: 600;
 }
 
-/* Efecto al pasar el raton por encima */
 .navbar-link:hover {
     text-decoration: underline;
 }
 
-/* Pantallas medianas: se acercan logo y links */
 @media (max-width: 900px) {
     .navbar-list {
         gap: 20px;
     }
 }
 
-/* Pantallas pequenas: navbar en columna */
 @media (max-width: 600px) {
 
     .navbar-container {
