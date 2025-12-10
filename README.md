@@ -6,6 +6,8 @@
 
 #Logo estilo cómic
 
+<img width="400" height="400" alt="logoP" src="https://github.com/user-attachments/assets/246dcec1-0922-42ce-bd47-9dd45ee01c7c" />
+
 
 #👥 Equipo
 
