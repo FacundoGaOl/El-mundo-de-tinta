@@ -26,8 +26,8 @@ class FooterStore extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
     <footer>
-        <section class="container">
-            <div><img src="../images/logoP.pngg" alt="Logo"></div>
+        <section class="containerf">
+            <div><img src="../images/logoP.png" alt="Logo"></div>
             <div class="aboutUs">
                 <h2>Sobre Nosotros</h2>
                 <p>Somos la tienda esencial para tu colección de cómics. En Mundo de Tinta, la calidad y la variedad son
