@@ -1,7 +1,4 @@
-## El-mundo-de-tinta
-README.md – Mundo de Tinta
-
-🌌 MUNDO DE TINTA
+##🌌 MUNDO DE TINTA
 
 #Logo ASCII estilo cómic
 
