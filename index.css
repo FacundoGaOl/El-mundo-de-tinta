@@ -1,8 +1,10 @@
-html, body {
+body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    background: linear-gradient(135deg, #285A71 0%, #5B4A9A 100%);
+
 }
 
 .mainSection {
@@ -17,13 +19,24 @@ html, body {
     gap: 1rem;
     width: 100%;
     box-sizing: border-box;
+    padding: 0;
 }
 
 
 .card {
-    background-color: rgba(136, 206, 115, 0.02);
+    background-color: rgb(255, 255, 255);
     padding: 1rem;
     border-radius: 10px;
+    box-sizing: border-box; 
+    min-width: 0;
+}
+
+.nameCard {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    max-width: 100%;
 }
 
 .card img {
@@ -31,10 +44,11 @@ width: 100%;
 }
 
 .buy {
-
 width: 100%;
 text-align: center;
-color: black;
+color: white;
+font-size: 1.25rem;
+background-color: #5B4A9A;
 }
 
 @media (min-width: 400px) {
@@ -69,4 +83,27 @@ color: black;
     width: 100%;
     box-sizing: border-box;
 }
+}
+
+h2 {
+    font-family: 'BebasNeue', Arial, sans-serif;
+    color: white;
+    padding-top: 20px;
+    font-size: 2em;
+    letter-spacing: 0.2em;
+}
+
+h3 {
+    font-family: 'BebasNeue', Arial, sans-serif;
+    letter-spacing: 0.05em;
+}
+
+@font-face {
+    font-family: 'CustomFont';
+    src: url(../fonts/ComicNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'BebasNeue';
+    src: url(../fonts/BebasNeue-Regular.ttf);
 }
