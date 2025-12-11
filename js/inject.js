@@ -4,7 +4,10 @@ class NavbarStore extends HTMLElement {
     <header class="navbar">
         <nav class="navbar-container">
 
-            <h1 class="navbar-brand">Mundo de Tinta🎨</h1>
+            <section class="navbar-brand">
+                <a href="../index.html"><img src="../images/logoP.png" alt="Logo"></a>
+                <h1 class="navbar-title">Mundo de Tinta</h1>
+            </section>
 
             <ul class="navbar-list">
                 <li class="navbar-list-item"><a class="navbar-link" href="../index.html">Libros</a></li>
