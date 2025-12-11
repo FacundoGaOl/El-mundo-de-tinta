@@ -27,7 +27,7 @@ class FooterStore extends HTMLElement {
         this.innerHTML = `
     <footer class="footerColor">
         <section class="footerContainer">
-            <div><img src="../images/logoP.png" alt="Logo"></div>
+            <div><img src="images/logoP.png" alt="Logo"></div>
             <div class="aboutUs">
                 <h2>Sobre Nosotros</h2>
                 <p>Somos la tienda esencial para tu colección de cómics. En Mundo de Tinta, la calidad y la variedad son
