@@ -27,7 +27,9 @@ Proyecto desarrollado por el Grupo 3:
 
 Mundo de Tinta es una página web dedicada a la venta de cómics, diseñada con una estética inspirada en viñetas, pop-art y narrativa gráfica. Incluye:
 
-Página de Inicio
+Página de Libros
+
+Página de Cómics
 
 Página Sobre Nosotros
 
@@ -82,9 +84,7 @@ Proyecto-Agencia_Grupo-3/
 #💥 Powered by MUNDO DE TINTA – Grupo 3 💥
 
 #🚀 Instalación
-git clone https://github.com/tu-repo/mundo-de-tinta.git
-cd mundo-de-tinta
-code .
+git clone https://facundogaol.github.io/El-mundo-de-tinta/
 
 #📄 Licencia MIT
 
