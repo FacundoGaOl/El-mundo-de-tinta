@@ -7,22 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Comik - Contacto</title>
     <link rel="stylesheet" href="../styles/contact.css">
+    <link rel="stylesheet" href="../styles/navbar.css">
+    <link rel="stylesheet" href="../styles/footer.css">
 </head>
 <body>
-    
-    <header> class="navbar">
-        <nav class="navbar-container">
-
-            <h1 class="navbar-brand">Mundo de Tinta🎨</h1>
-
-            <ul class="navbar-list">
-                <li class="navbar-list-item"><a class="navbar-link" href="index.html">Libros</a></li>
-                <li class="navbar-list-item"><a class="navbar-link" href="comics.html">Comics</a></li>
-                <li class="navbar-list-item"><a class="navbar-link" href="about-us.html">Sobre Nosotros</a></li>
-                <li class="navbar-list-item"><a class="navbar-link" href="contact.html">Contacto</a></li>
-            </ul>
-        </nav>
-        </header>
     <main>
         
         <div class="info-block">
@@ -36,10 +24,11 @@
 
         <h2>Formulario de contacto</h2>
 
-        <form id="contactForm"
+        <form id="contactFom">
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email"
+            <div>
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email">
             </div>
 
             <div>
@@ -55,13 +44,11 @@
         </form>
     </main>
 
-<footer>
+    <footer>
         <p> 2025 Mundo De Tinta 🎨</p>
     </footer>
 
-    <footer-store></footer-store>
-
-    <script src="js/inject.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
 

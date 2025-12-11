@@ -1,8 +1,8 @@
-.body {
+html, body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: rgba(255, 255, 255, 0.02);
+    background-color: rgb(255, 255, 255);
 }
 
 .mainSection {
@@ -31,7 +31,7 @@ width: 100%;
 }
 
 .buy {
-background-color: paleturquoise;
+
 width: 100%;
 text-align: center;
 color: black;
