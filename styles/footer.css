@@ -1,4 +1,4 @@
-.container {
+.containerf {
     background-color: #77CEC6;
     display: grid;
     grid-template-rows: 1fr;
@@ -49,7 +49,4 @@ div {
     font-size: 15px;
     text-align: center;
     grid-column: 1 / -1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
