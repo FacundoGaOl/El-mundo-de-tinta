@@ -1,12 +1,20 @@
-const requestURL = '../json/tiendaComics.json';
+// Detecta si estamos en una página dentro de /html/ o en la raíz
+const isInHtmlFolder = window.location.pathname.includes('/html/');
+const pathPrefix = isInHtmlFolder ? '../' : './';
 
-function createComicsCard({name, price, cover}) {
+// Ruta al JSON relativa al HTML que carga el script
+const requestURL = `${pathPrefix}json/tiendaComics.json`;
+
+function createComicsCard({ name, price, cover }) {
+    // cover viene del JSON como "images/loquesea.jpg"
+    const imageSrc = `${pathPrefix}${cover}`;
+
     return `
         <div class="card">
-            <img src="${cover}" alt="Portada del comic">
+            <img src="${imageSrc}" alt="Portada del comic">
             <h3 class="nameCard">${name}</h3>
             <h3>${price}€</h3>
-            <button class="buy"> <h3>Comprar</h3></button>
+            <button class="buy"><h3>Comprar</h3></button>
         </div>
     `;
 }
@@ -30,7 +38,7 @@ async function displayComics() {
     if (comicsData && comicsData.productsComics) {
         const comicsCards = comicsData.productsComics.map(createComicsCard).join('');
         comicSection.innerHTML = comicsCards;
-    }else{
+    } else {
         comicSection.innerHTML = '<p>No hemos podido acceder a la libreria.</p>';
     }
 }
@@ -63,7 +71,6 @@ async function displayPreComics() {
 
 displayPreComics();
 
-
 function shuffleArray(array) {
     let currentIndex = array.length, randomIndex;
     while (currentIndex !== 0) {
@@ -76,14 +83,13 @@ function shuffleArray(array) {
     return array;
 }
 
-
 async function displayRandomComics() {
     const comicRandomSection = document.getElementById('comicsRandomSection');
     const comicsData = await fetchComicsJson();
 
     if (comicsData && comicsData.productsComics) {
         const allComics = comicsData.productsComics;
-        allShuffleComics = shuffleArray(allComics);
+        const allShuffleComics = shuffleArray(allComics);
         const sliceRandomComics = allShuffleComics.slice(0, 4);
         const comicsCards = sliceRandomComics.map(createComicsCard).join('');
         comicRandomSection.innerHTML = comicsCards;
