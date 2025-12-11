@@ -19,7 +19,7 @@ section {
 }
 
 #galeria {
-    margin: 100px 20px;
+    margin: 100px auto;
     background-color: white;
     padding: 40px 20px;
 }
