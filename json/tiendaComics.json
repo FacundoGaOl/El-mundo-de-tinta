@@ -2,111 +2,129 @@
     "productsComics": [
         {
             "id": 1,
-            "name" : "Gatusina",
-            "price" : 14,
-            "cover" : "../images/Gatusina.jpg",
-            "state" : "Pre-venta",
+            "name": "Gatusina",
+            "price": 14,
+            "cover": "images/Gatusina.jpg",
+            "state": "Pre-venta",
             "editorial": "Tomodomo",
             "author": "Hisa Takano"
         },
         {
             "id": 2,
-            "name" : "Kamen Raider Black 3",
-            "price" : 18,
-            "cover" : "../images/kamenRiderBlack3.jpg",
-            "state" : "Pre-venta",
+            "name": "Kamen Raider Black 3",
+            "price": 18,
+            "cover": "images/kamenRiderBlack3.jpg",
+            "state": "Pre-venta",
             "editorial": "Ooso comics",
             "author": "Shotaro Ishinomori"
         },
         {
             "id": 3,
-            "name" : "Gastroinforme de mi trastorno alimenticio",
-            "price" : 12,
-            "cover" : "../images/gastroinforme.jpg",
-            "state" : "Pre-venta",
+            "name": "Gastroinforme de mi trastorno alimenticio",
+            "price": 12,
+            "cover": "images/gastroinforme.jpg",
+            "state": "Pre-venta",
             "editorial": "Fandogamia Editorial",
             "author": "Kabi Nagata"
         },
         {
             "id": 4,
-            "name" : "Absolute Batman 9",
-            "price" :3.30,
-            "cover" : "../images/AbsoluteBatman9.jpg",
-            "state" : "En stock",
+            "name": "Absolute Batman 9",
+            "price": 3.3,
+            "cover": "images/AbsoluteBatman9.jpg",
+            "state": "En stock",
             "editorial": "Panini Comics",
-            "author": ["Scott Snyder", "Nick Dragotta"]
+            "author": [
+                "Scott Snyder",
+                "Nick Dragotta"
+            ]
         },
         {
             "id": 5,
-            "name" : "Absolute Wonder Woman 9",
-            "price" : 3.3,
-            "cover" : "../images/AbsoluteWonderWoman9.jpg",
-            "state" : "En stock",
+            "name": "Absolute Wonder Woman 9",
+            "price": 3.3,
+            "cover": "images/AbsoluteWonderWoman9.jpg",
+            "state": "En stock",
             "editorial": "Panini Comics",
-            "author": ["Kelly Thompson", "Haayden Sherman"]
+            "author": [
+                "Kelly Thompson",
+                "Haayden Sherman"
+            ]
         },
         {
             "id": 6,
-            "name" : "Rurouni Kenshin",
-            "price" : 16,
-            "cover" : "../images/Rurouni Kenshin.jpg",
-            "state" : "Pre-venta",
+            "name": "Rurouni Kenshin",
+            "price": 16,
+            "cover": "images/Rurouni Kenshin.jpg",
+            "state": "Pre-venta",
             "editorial": "Nobuhiro Watsuki",
             "author": "Shotaro Ishinomori"
         },
         {
             "id": 7,
-            "name" : "Kimba el león blanco",
-            "price" : 30,
-            "cover" : "../images/Kimba el león blanco.jpg",
-            "state" : "Pre-venta",
+            "name": "Kimba el león blanco",
+            "price": 30,
+            "cover": "images/Kimba el león blanco.jpg",
+            "state": "Pre-venta",
             "editorial": "Planeta Cómic",
             "author": "Osamu Tezuka"
         },
         {
             "id": 8,
-            "name" : "El inservible Elon Man",
-            "price" : 4,
-            "cover" : "../images/El inservible Elon Man.jpg",
-            "state" : "Pre-venta",
+            "name": "El inservible Elon Man",
+            "price": 4,
+            "cover": "images/El inservible Elon Man.jpg",
+            "state": "Pre-venta",
             "editorial": "Fandogamia Editorial",
             "author": "Manuel Torres"
         },
         {
             "id": 9,
-            "name" : "Los Cuatro Fantásticos",
-            "price" :6.30,
-            "cover" : "../images/Los Cuatro Fantásticos.jpg",
-            "state" : "En stock",
+            "name": "Los Cuatro Fantásticos",
+            "price": 6.3,
+            "cover": "images/Los Cuatro Fantásticos.jpg",
+            "state": "En stock",
             "editorial": "Marvel",
-            "author": ["Ryan North"]
+            "author": [
+                "Ryan North"
+            ]
         },
         {
             "id": 10,
-            "name" : "Brainrot",
-            "price" : 15.30,
-            "cover" : "../images/Brainrot.jpg",
-            "state" : "En stock",
+            "name": "Brainrot",
+            "price": 15.3,
+            "cover": "images/Brainrot.jpg",
+            "state": "En stock",
             "editorial": "Planeta Cómic",
-            "author": ["Carles Dalmau"]
+            "author": [
+                "Carles Dalmau"
+            ]
         },
-                {
+        {
             "id": 11,
-            "name" : "Lobezno y Veneno",
-            "price" :16,
-            "cover" : "../images/Lobezno y Veneno.jpg",
-            "state" : "En stock",
+            "name": "Lobezno y Veneno",
+            "price": 16,
+            "cover": "images/Lobezno y Veneno.jpg",
+            "state": "En stock",
             "editorial": "Marvel",
-            "author": ["Howard Mackie"]
+            "author": [
+                "Howard Mackie"
+            ]
         },
         {
             "id": 12,
-            "name" : "Los Creadores",
-            "price" : 9.95,
-            "cover" : "../images/los creadores.png",
-            "state" : "En stock",
+            "name": "Los Creadores",
+            "price": 9.95,
+            "cover": "images/los creadores.png",
+            "state": "En stock",
             "editorial": "Factoria F5",
-            "author": ["Alba", "Ana", "Noa", "Facundo", "Adrian"]
+            "author": [
+                "Alba",
+                "Ana",
+                "Noa",
+                "Facundo",
+                "Adrian"
+            ]
         }
     ]
 }
