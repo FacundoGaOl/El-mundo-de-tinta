@@ -1,0 +1,48 @@
+.footerColor {
+    background-color: #77CEC6;
+    width: 100%;
+    margin-top: 50px;
+}
+
+
+.footerContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 1200px;
+    min-height: 300px;
+    gap: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.footerContainer img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+
+.footerContainer h2 {
+    font-family: 'BebasNeue';
+    font-size: 24px;
+}
+
+.footerContainer p {
+    font-family: 'CustomFont';
+    font-size: 16px;
+    text-align: justify;
+}
+
+.footerContainer div {
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+
+.footerContainer .copyright {
+    font-family: 'CustomFont';
+    font-size: 15px;
+    text-align: center;
+    grid-column: 1 / -1;
+}

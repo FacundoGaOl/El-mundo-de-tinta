@@ -1,0 +1,19 @@
+/* Reinicio basico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fuente estilo comic */
+body {
+    font-family: 'Comic Neue', cursive;
+}
+
+.cardsHouse {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+}
