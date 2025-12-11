@@ -7,10 +7,10 @@ class NavbarStore extends HTMLElement {
             <h1 class="navbar-brand">Mundo de Tinta🎨</h1>
 
             <ul class="navbar-list">
-                <li class="navbar-list-item"><a class="navbar-link" href="index.html">Libros</a></li>
-                <li class="navbar-list-item"><a class="navbar-link" href="comics.html">Comics</a></li>
-                <li class="navbar-list-item"><a class="navbar-link" href="html/aboutUs.html">Sobre Nosotros</a></li>
-                <li class="navbar-list-item"><a class="navbar-link" href="html/contact.html">Contacto</a></li>
+                <li class="navbar-list-item"><a class="navbar-link" href="../index.html">Libros</a></li>
+                <li class="navbar-list-item"><a class="navbar-link" href="../comics.html">Comics</a></li>
+                <li class="navbar-list-item"><a class="navbar-link" href="../html/aboutUs.html">Sobre Nosotros</a></li>
+                <li class="navbar-list-item"><a class="navbar-link" href="../html/contact.html">Contacto</a></li>
             </ul>
 
         </nav>

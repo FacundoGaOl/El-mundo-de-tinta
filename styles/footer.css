@@ -1,6 +1,7 @@
 .footerColor {
     background-color: #77CEC6;
     width: 100%;
+    margin-top: 50px;
 }
 
 
@@ -15,41 +16,31 @@
     margin: 0 auto;
 }
 
-img {
+.footerContainer img {
     width: 100%;
     height: auto;
     border-radius: 6px;
 }
 
-@font-face {
-    font-family: 'CustomFont';
-    ;
-    src: url(../fonts/ComicNeue-Regular.ttf);
-}
 
-@font-face {
-    font-family: 'BebasNeue';
-    src: url(../fonts/BebasNeue-Regular.ttf);
-}
-
-h2 {
+.footerContainer h2 {
     font-family: 'BebasNeue';
     font-size: 24px;
 }
 
-p {
+.footerContainer p {
     font-family: 'CustomFont';
     font-size: 16px;
     text-align: justify;
 }
 
-div {
+.footerContainer div {
     padding: 30px;
     box-sizing: border-box;
 }
 
 
-.copyright {
+.footerContainer .copyright {
     font-family: 'CustomFont';
     font-size: 15px;
     text-align: center;
