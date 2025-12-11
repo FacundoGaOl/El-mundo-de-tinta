@@ -1,4 +1,4 @@
-const requestURL = 'json/tiendaComics.json';
+const requestURL = '../json/tiendaComics.json';
 
 function createComicsCard({name, price, cover}) {
     return `
