@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     color: #222;
-    background-color: #5B4A9A;
+    background: linear-gradient(135deg, #285A71 0%, #5B4A9A 100%);
     line-height: 1.6;
 }
 
@@ -16,6 +16,10 @@ h2 {
     color: #111;
 }
 
+.white {
+color: #ffffff;
+}
+
 section {
     padding: 60px 20px;
     max-width: 1100px;
@@ -23,7 +27,7 @@ section {
 }
 
 #galeria {
-    background-color: #FD9326;
+    background-color: white;
     padding: 40px 20px;
 }
 
@@ -72,7 +76,7 @@ section {
 
 
 #historia {
-    background-color: #FD9326;
+    background-color: white ;
     border-radius: 12px;
     padding: 50px 30px;
 }
@@ -84,9 +88,7 @@ section {
     color: #333;
 }
 
-#fundadores {
-    background-color: #5B4A9A;
-}
+
 
 .cards-grid {
     display: grid;
@@ -96,7 +98,7 @@ section {
 }
 
 .card {
-    background: #FD9326;
+    background: white ;
     padding: 15px;
     border-radius: 14px;
     text-align: center;
@@ -138,7 +140,7 @@ section {
 }
 
 .valor-card {
-    background: #FD9326;
+    background: #ffffff;
     padding: 18px;
     border-radius: 100px;
     max-width: 200px;
