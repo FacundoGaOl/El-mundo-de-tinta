@@ -17,7 +17,7 @@ Proyecto desarrollado por el Grupo 3:
 
 -Alba Ganduxé
 
--Noa-Li 
+-Noa-Li Vilchez
 
 -Facundo Garavagalia
 
