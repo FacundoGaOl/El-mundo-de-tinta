@@ -1,11 +1,4 @@
 
-body {
-    margin: 0;
-    padding: 0;
-    color: #222;
-    background: linear-gradient(135deg, #285A71 0%, #5B4A9A 100%);
-    line-height: 1.6;
-}
 
 h2 {
     font-family: "Bebas Neue", sans-serif;
@@ -78,7 +71,8 @@ section {
 #historia {
     background-color: white ;
     border-radius: 12px;
-    padding: 50px 30px;
+    padding: 30px;
+    margin-top: 40px;
 }
 
 #historia p {

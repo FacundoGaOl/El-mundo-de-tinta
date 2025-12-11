@@ -4,13 +4,16 @@ class NavbarStore extends HTMLElement {
     <header class="navbar">
         <nav class="navbar-container">
 
-            <h1 class="navbar-brand">Mundo de Tinta🎨</h1>
+            <section class="navbar-brand">
+                <a href="../index.html"><img src="../images/logoP.png" alt="Logo"></a>
+                <h1 class="navbar-title">Mundo de Tinta</h1>
+            </section>
 
             <ul class="navbar-list">
-                <li class="navbar-list-item"><a class="navbar-link" href="/El-mundo-de-tinta/index.html">Libros</a></li>
-                <li class="navbar-list-item"><a class="navbar-link" href="/El-mundo-de-tinta/comics.html">Comics</a></li>
-                <li class="navbar-list-item"><a class="navbar-link" href="/El-mundo-de-tinta/html/aboutUs.html">Sobre Nosotros</a></li>
-                <li class="navbar-list-item"><a class="navbar-link" href="/El-mundo-de-tinta/html/contact.html">Contacto</a></li>
+                <li class="navbar-list-item"><a class="navbar-link" href="../index.html">Libros</a></li>
+                <li class="navbar-list-item"><a class="navbar-link" href="../html/comics.html">Comics</a></li>
+                <li class="navbar-list-item"><a class="navbar-link" href="../html/aboutUs.html">Sobre Nosotros</a></li>
+                <li class="navbar-list-item"><a class="navbar-link" href="../html/contact.html">Contacto</a></li>
             </ul>
 
         </nav>
@@ -27,7 +30,7 @@ class FooterStore extends HTMLElement {
         this.innerHTML = `
     <footer class="footerColor">
         <section class="footerContainer">
-            <div><img src="images/logoP.png" alt="Logo"></div>
+            <div><img src="../images/logoP.png" alt="Logo"></div>
             <div class="aboutUs">
                 <h2>Sobre Nosotros</h2>
                 <p>Somos la tienda esencial para tu colección de cómics. En Mundo de Tinta, la calidad y la variedad son
